@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2012 The Carbon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,18 +22,18 @@ PRODUCT_RELEASE_NAME := GN-CDMA
 $(call inherit-product-if-exists, device/samsung/toro/full_toro.mk)
 
 # cdma
-$(call inherit-product, vendor/liquid/config/common_cdma.mk)
+$(call inherit-product, vendor/carbon/config/common_cdma.mk)
 
 # phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # products
 PRODUCT_DEVICE := toro
 PRODUCT_BRAND := Google
-PRODUCT_NAME := liquid_toro
+PRODUCT_NAME := carbon_toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.toro.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.toro.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
