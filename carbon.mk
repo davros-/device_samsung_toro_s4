@@ -37,7 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.toro.$(shell date +%m%d%y).$(
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=424425 \
+    BUILD_NUMBER=573038 \
     PRODUCT_NAME=mysid \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
