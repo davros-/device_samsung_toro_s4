@@ -18,6 +18,9 @@
 # name
 PRODUCT_RELEASE_NAME := GN-CDMA
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_xhdpi
+
 # device
 $(call inherit-product-if-exists, device/samsung/toro/full_toro.mk)
 
