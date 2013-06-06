@@ -1,0 +1,12 @@
+[
+ {
+   "repository": "elite_kernel_tuna",
+   "target_path": "kernel/samsung/tuna",
+   "branch": "db42"
+ },
+ {
+   "repository": "device_samsung_tuna",
+   "target_path": "device/samsung/tuna",
+   "branch": "db42-a"
+ }
+]
