@@ -39,7 +39,7 @@ PRODUCT_BRAND := Google
 PRODUCT_NAME := droid_concepts_toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=demented.toro.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=droid_concepts.toro.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
