@@ -1,6 +1,6 @@
 [
  {
-   "repository": "elite_kernel_tuna",
+   "repository": "elite_kernelAOSP",
    "target_path": "kernel/samsung/tuna",
    "branch": "db42"
  },
